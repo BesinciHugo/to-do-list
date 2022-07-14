@@ -1,0 +1,65 @@
+.body {
+    background-color: #495C83; 
+    height: 1000px;
+    padding-top: 100px;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 1.5em;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 400px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.title {
+    color: aliceblue;
+    background-color: #7A86B6;
+    text-align: center;
+}
+
+.input-button{
+    background-color: #A8A4CE;
+    text-align: center;
+    padding: 9px;
+}
+
+.inputt {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 600px;
+    padding-left: 10px;
+}
+
+.ekle-button {
+    width: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.lili {
+    display: flex;
+    background-color: #C8B6E2;
+    color: floralwhite;
+    border-radius: 10px;
+    list-style: none;
+    margin: auto;
+    width: 870px;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-top: 5PX;
+    margin-top: 10px;
+}
+
+.X-Button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100px;
+    margin-bottom: 5px;
+}

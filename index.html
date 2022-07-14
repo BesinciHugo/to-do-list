@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="/script.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <container>
+      <div class="body">
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+          <div
+            id="liveToast"
+            class="toast"
+            role="alert"
+            aria-live="assertive"
+            aria-atomic="true"
+          >
+            <div class="toast-header">
+              <img src="..." class="rounded me-2" alt="..." />
+              <strong class="me-auto">Yapilacaklar Listesi</strong>
+              <small>Az Once</small>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="toast"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="toast-body">Listeye Basariyla Eklendi</div>
+          </div>
+        </div>
+
+        <header class="header">
+          <img
+            class="image"
+            src="https://pbs.twimg.com/media/EwlkOZHWUAAvGaS?format=jpg&name=small"
+            alt=""
+          />
+
+          <h1 class="title">YAPILACAKLAR LISTESI</h1>
+          <div class="input-button">
+            <input
+              class="inputt"
+              placeholder="Bugun Ne Yapacaksin"
+              id="input"
+              type="text"
+            />
+            <button class="ekle-button" id="addToDo">Ekle</button>
+          </div>
+        </header>
+
+        <list>
+          <ul id="list"></ul>
+        </list>
+      </div>
+    </container>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
